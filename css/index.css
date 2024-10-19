@@ -1,0 +1,135 @@
+* *::after ::before {
+   margin: 0;
+}
+h1,h2,p {
+   margin: 0;
+}
+
+body{
+   background-color:  #1e202b;
+}
+#navo{
+   background-color: #1e202b;
+   height: 150px;
+}
+ #logo a,p{
+font-size: x-small;
+ }
+ #logo h2{
+font-size: large;
+ }
+ #navbarNavAltMarkup a{
+   font-size: larger;
+   color:var(--blue-color);
+ }
+ #logo .navbar-nav .cover-head {
+ 
+padding-inline: 8px;
+ }
+ #logo .navbar-nav .cover-head a{
+ 
+color: white; }
+ #logo .navbar-nav .cover-head:hover a{
+ 
+color:var(--blue-color); }
+ #logo .navbar-nav .cover-head:hover a{
+   border: 2px;
+   border-style: solid;
+border-color:var(--blue-color);
+border-radius: 50px;
+padding-inline: 15px;
+
+ }
+:root{
+   --background-card:#323544;
+   --blue-color:#009ad8;
+}
+ .backGround-side{
+   background-image: url(../images/banner.png);
+   inset: 0;
+   height: 350px;
+   background-size: cover;
+   background-position: center;
+background-repeat: no-repeat; }
+.input-area{
+   position: relative;
+}
+#input-find{
+   background-color: #383a42;
+}
+#btn-find{
+   position: absolute;
+   right: 5px;
+   top: 5px;
+   padding-block: 11px;
+}
+
+.header-card {
+   font-size: medium;
+   background-color: #2d303d;
+   padding: 4px;
+}
+.header-card p{
+   font-size: medium;
+   background-color: lightgray;
+}
+.cola1{
+   background-color: gray;
+
+}
+.col-md-4{
+   height: 420px;
+}
+.cola2  {
+background-color: gray;
+}
+.card1  p ,i{
+font-size: 25px;
+
+}
+.card1 h3{
+font-size: 50px;
+
+}
+.contant {
+   position: relative;
+}
+.card1{
+  background-color:#ffffff ;
+}
+.card{
+   height: 340px;
+  background-color:#ffffff ;
+}
+.footer{
+   background-color:#323544;
+   position: relative;
+   bottom: -250px;
+}
+.footer .icons .cover-icon{
+   padding: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color:#242732;
+width: 35px;
+height: 35px;
+border-radius: 50%;
+}
+.footer .icons .cover-icon:hover.cover-icon{
+  background-color: var(--blue-color) ;
+  padding: 5px;
+  width: 35px;
+height: 35px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer .icons i{
+ color: var(--blue-color);
+}
+.footer .icons .cover-icon:hover i{
+   color:white ;
+ }
